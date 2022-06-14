@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
 </head>
 <body>
-    
+  <script>
+    // Here I'm testing my functions.
+    // Func 1 - takes one number and returns number + 7
+    function addSeven(num) {
+      let x = num+7
+      return x
+    }
+    //Func 2 - takes 2 numbers and returns their product.
+    function multiplication(num1,num2) {
+      let y = num1*num2
+      return y
+    }
+    //Func 3 - takes a string and returns that string with only the first letter capitalized. 
+    //Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+    function capitalize(word) {
+      return word.charAt(0).toUpperCase()+word.slice(1);
+    }
+    //Func 4 -  takes a string and returns the very last letter of that string
+    function lastLetter(word2) {
+      return word2.charAt(word2.length - 1)
+    }
+  </script>
 </body>
 </html>
