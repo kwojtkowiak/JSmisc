@@ -20,4 +20,20 @@ header.style.color = "blue";
 
 container.appendChild(header);
 
+const content2 = document.createElement("div");
+content2.classList.add("content2");
+content2.style.cssText = "background-color: pink; border-color: black; border-style:solid; padding: 5px;";
 
+const header2 = document.createElement("h1");
+header2.classList.add("hsmall");
+header2.textContent = "I'm in a div";
+
+content2.appendChild(header2);
+
+const para2 = document.createElement("p");
+para2.classList.add("para2");
+para2.textContent = "Me too!";
+
+content2.appendChild(para2);
+
+container.appendChild(content2);
